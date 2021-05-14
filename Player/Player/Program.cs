@@ -17,6 +17,7 @@ namespace Player
             PlayerUseCase useCase = new PlayerUseCase();
 
             List<PlayerResultat> result = useCase.GetAll();
+            //oussama ajouta comm
             // Manajmch nest3ml console.Writeline direct 3ala liste donc nesta3ml Foreach
             foreach (PlayerResultat item in result)
             //Console.WriteLine(item); Heshi matraj3lich eli west PlayerResultat 
