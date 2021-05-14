@@ -13,6 +13,7 @@ namespace Player
     {
         static void Main(string[] args)
         {
+            //ajout de commentaire awdha7
             PlayerUseCase useCase = new PlayerUseCase();
 
             List<PlayerResultat> result = useCase.GetAll();
